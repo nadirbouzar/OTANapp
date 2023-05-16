@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=" INFOS "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Application creer par Thinnujan Thirualagan, Nadir Bouzar et Djawad Ali.
+         A la suite du conflit entre la russie et l'ukraine, nous sommes dit, pourquoi pas développer une application android qui permet aux membre de l’OTAN de faire des dons de leur stock d’arme virtuellement ? "
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="400dp"
+        android:src="@drawable/otan"
+        android:layout_marginLeft="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginTop="300dp"
+        />
+
+
+</RelativeLayout>
