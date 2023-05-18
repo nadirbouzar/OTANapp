@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UkActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stocks UK"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/challenger2" />
+
+        <Button
+            android:id="@+id/challenger2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenger2" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/seaking" />
+
+        <Button
+            android:id="@+id/seaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="seaking" />
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/m270mlrs" />
+
+        <Button
+            android:id="@+id/m270mlrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="m270mlrs" />
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/munition" />
+
+        <Button
+            android:id="@+id/munitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="munitions" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
