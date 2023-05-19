@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Quantité"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/quant"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:background="#f2f2f2"
+        android:hint="Rentrez la quantité souhaitée..."
+        android:padding="10dp"></EditText>
+
+
+    <Button
+        android:id="@+id/quantite"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Valider"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginTop="240dp">
+    </Button>
+
+</RelativeLayout>
