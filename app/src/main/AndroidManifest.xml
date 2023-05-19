@@ -12,7 +12,7 @@
         android:theme="@style/Theme.OTANapp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Page_Stock"
             android:exported="true">
 
             <intent-filter>
