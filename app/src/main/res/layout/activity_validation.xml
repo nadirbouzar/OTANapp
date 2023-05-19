@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ValidationActivity">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Validation"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Votre demande a été prise en compte!"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="8dp" />
+            <Button
+                android:id="@+id/revenir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faire une autre demande" />
+
+            <Button
+                android:id="@+id/accueil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Revenir à l'ecran d'accueil" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/otan" />
+
+            <!-- Other views in your layout -->
+
+        </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -59,6 +59,7 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
 
             case R.id.nav_logout:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LogoutFragment()).commit();
+
                 break;
 
             case R.id.nav_map:
@@ -66,12 +67,10 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
                 break;
 
             case R.id.nav_list:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LitFragment()).commit();
                 break;
 
-            case R.id.nav_account:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountFragment()).commit();
-                break;
+
             case R.id.nav_info:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new InfoFragment()).commit();
                 break;

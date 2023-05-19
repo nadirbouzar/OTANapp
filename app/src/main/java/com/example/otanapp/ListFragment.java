@@ -1,5 +1,6 @@
 package com.example.otanapp;
 
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,7 +11,6 @@ import android.view.ViewGroup;
 
 
 public class ListFragment extends Fragment {
-
 
 
     @Override
