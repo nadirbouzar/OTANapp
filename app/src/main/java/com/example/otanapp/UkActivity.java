@@ -38,7 +38,7 @@ public class UkActivity extends AppCompatActivity {
             }
 
             // Ouvrir MainActivity2 en lui transmettant le message personnalisé
-            Intent intent = new Intent(this, MainActivity2.class);
+            Intent intent = new Intent(UkActivity.this, QuantiteActivity.class);
             intent.putExtra("message", message);
             startActivity(intent);
         }

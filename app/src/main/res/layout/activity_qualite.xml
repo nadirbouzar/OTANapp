@@ -2,7 +2,9 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".QuantiteActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -26,6 +28,7 @@
         android:layout_marginRight="10dp"
         android:background="#f2f2f2"
         android:hint="Rentrez la quantité souhaitée..."
+        android:textColorHint="@color/black"
         android:padding="10dp"></EditText>
 
 

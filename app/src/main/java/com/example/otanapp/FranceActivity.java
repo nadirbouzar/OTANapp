@@ -37,7 +37,7 @@ public class FranceActivity extends AppCompatActivity {
         }
 
         // Ouvrir MainActivity2 en lui transmettant le message personnalisé
-        Intent intent = new Intent(FranceActivity.this, MainActivity2.class);
+        Intent intent = new Intent(FranceActivity.this, QuantiteActivity.class);
         intent.putExtra("message", message);
         startActivity(intent);
     }

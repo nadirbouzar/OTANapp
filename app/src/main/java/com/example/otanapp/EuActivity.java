@@ -38,7 +38,7 @@ public class EuActivity extends AppCompatActivity {
         }
 
         // Ouvrir MainActivity2 en lui transmettant le message personnalisé
-        Intent intent = new Intent(EuActivity.this, MainActivity2.class);
+        Intent intent = new Intent(EuActivity.this, QuantiteActivity.class);
         startActivity(intent);
     }
 }

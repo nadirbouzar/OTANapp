@@ -6,13 +6,16 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.OTANapp"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAULqQsZgMAAd_0bOKYDsz-l5-OIjdlDb8" />
         <activity
-            android:name=".Page_Stock"
+            android:name=".MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -31,6 +34,37 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-    </application>
+
+    <activity
+        android:name=".ItalyActivity"
+        android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.Italy" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".ValidationActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Validation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuantiteActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Quantite" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+</application>
 
 </manifest>

@@ -42,7 +42,7 @@ public class AllemagneActivity extends AppCompatActivity {
 
         // Ouvrir MainActivity2 en lui transmettant le message personnalisé
 
-        Intent intent = new Intent(AllemagneActivity.this, MainActivity2.class);
+        Intent intent = new Intent(AllemagneActivity.this, QuantiteActivity.class);
         startActivity(intent);
     }
 }

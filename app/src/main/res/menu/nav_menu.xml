@@ -11,10 +11,7 @@
             android:icon="@drawable/nav_home"
             android:title="Home"/>
 
-        <item
-            android:id="@+id/nav_account"
-            android:icon="@drawable/nav_account"
-            android:title="Mon Compte"/>
+
 
         <item
             android:id="@+id/nav_logout"
@@ -28,9 +25,9 @@
         android:title="Menu">
         <menu>
             <item
-                android:id="@+id/nav_info"
-                android:icon="@drawable/nav_info"
-                android:title="Info"/>
+                android:id="@+id/nav_text"
+                android:icon="@drawable/nav_text"
+                android:title="Demande"/>
 
             <item
                 android:id="@+id/nav_map"
@@ -48,9 +45,11 @@
                 android:title="Stocks Ukraine"/>
 
             <item
-                android:id="@+id/nav_text"
-                android:icon="@drawable/nav_text"
-                android:title="Demande"/>
+                android:id="@+id/nav_info"
+                android:icon="@drawable/nav_info"
+                android:title="Info"/>
+
+
         </menu>
 
     </item>
