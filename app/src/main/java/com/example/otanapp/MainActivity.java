@@ -39,9 +39,9 @@ private Button login;
                     Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                     startActivity(intent);
 
-                }//else
+                }else
                     //incorrect
-                    //Toast.makeText(MainActivity.this, "LOGIN UNSUCCESSFULL", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "LOGIN UNSUCCESSFULL", Toast.LENGTH_SHORT).show();
             }
 
 
