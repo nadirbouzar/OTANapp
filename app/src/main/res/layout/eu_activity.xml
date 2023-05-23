@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".EuActivity">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
@@ -26,49 +24,88 @@
             android:id="@+id/image1"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/predator" />
-
-        <Button
-            android:id="@+id/predator"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="predator" />
-
-        <ImageView
-            android:id="@+id/image2"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/stryker" />
-
-        <Button
-            android:id="@+id/stryker"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="stryker" />
-        <ImageView
-            android:id="@+id/image3"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/himars" />
-
-        <Button
-            android:id="@+id/himars"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="himars" />
-        <ImageView
-            android:id="@+id/image4"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/f35" />
+            android:src="@drawable/f35"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/f35"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="f35" />
+            android:text="f35"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/f35Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/himars"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/himars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="himars"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/himarsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/stryker"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/stryker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stryker"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/strykerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/predator"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/predator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="predator"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/predatorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <!-- Ajoutez les images, boutons et zones de texte supplémentaires ici -->
 
     </LinearLayout>
+</ScrollView>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,6 +43,7 @@
             android:layout_marginRight="10dp"
             android:background="#f2f2f2"
             android:hint="Formations souhaitées"
+            android:textColorHint="@color/black"
             android:padding="10dp"></EditText>
 
         <RelativeLayout
@@ -86,6 +87,7 @@
                 android:layout_marginRight="10dp"
                 android:background="#f2f2f2"
                 android:hint="Armes souhaitées"
+                android:textColorHint="@color/black"
                 android:padding="10dp"></EditText>
 
             <TextView

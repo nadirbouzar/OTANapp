@@ -13,7 +13,7 @@
         android:layout_marginRight="15dp"
         android:gravity="center"
         android:text="Quantité"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="25sp">
     </TextView>
 
@@ -26,6 +26,7 @@
         android:layout_marginRight="10dp"
         android:background="#f2f2f2"
         android:hint="Rentrez la quantité souhaitée..."
+        android:textColorHint="@color/white"
         android:padding="10dp"></EditText>
 
 

@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".AllemagneActivity">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
@@ -26,48 +24,87 @@
             android:id="@+id/image1"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/marder" />
+            android:src="@drawable/marder"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/marder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Marder" />
+            android:text="Marder"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/marderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
 
         <ImageView
             android:id="@+id/image2"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/sidewinder" />
+            android:src="@drawable/sidewinder"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/sidewinder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="sidewinder" />
+            android:text="Sidewinder"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/sidewinderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
         <ImageView
             android:id="@+id/image3"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/m270mlrs" />
+            android:src="@drawable/patriot"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/patriot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="patriot" />
+            android:text="patriot"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/patriotText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
         <ImageView
             android:id="@+id/image4"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/fennek" />
+            android:src="@drawable/fennek"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/fennek"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="fennek" />
+            android:text="fennek"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/fennekText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <!-- Ajoutez les images, boutons et zones de texte supplémentaires ici -->
 
     </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

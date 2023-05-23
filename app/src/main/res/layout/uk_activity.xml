@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".UkActivity">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stocks UK"
+            android:text="Stocks Royaume-Uni"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -27,49 +24,87 @@
             android:id="@+id/image1"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/challenger2" />
+            android:src="@drawable/challenger2"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/challenger2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Challenger2" />
+            android:text="Challenger 2"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/challenger2Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
 
         <ImageView
             android:id="@+id/image2"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/seaking" />
+            android:src="@drawable/seaking"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/seaking"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="seaking" />
+            android:text="Sea King"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/seakingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
         <ImageView
             android:id="@+id/image3"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/m270mlrs" />
-
-        <Button
-            android:id="@+id/m270mlrs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="m270mlrs" />
-        <ImageView
-            android:id="@+id/image4"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/munition" />
+            android:src="@drawable/munition"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/munitions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="munitions" />
+            android:text="Munitions"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/munitionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/m270mlrs"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/m270mlrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M270 MLRS"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/m270mlrsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <!-- Ajoutez les images, boutons et zones de texte supplémentaires ici -->
 
     </LinearLayout>
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

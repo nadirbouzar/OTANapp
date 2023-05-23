@@ -18,33 +18,49 @@ public class UkActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uk_activity);
-    }
-        public void openActivity2(View view) {
-            // Récupérer l'identifiant du bouton cliqué
-            int buttonId = view.getId();
 
-            // Déterminer le message personnalisé en fonction du bouton cliqué
-            String message;
-            if (buttonId == R.id.challenger2) {
-                message = "Votre demande de challenger2 a ete prise en compte";
-            } else if (buttonId == R.id.seaking) {
-                message = "Votre demande de seaking a ete prise en compte";
-            }else if (buttonId == R.id.munitions) {
-                message = "Votre demande de munitions a ete prise en compte";
-            }else if (buttonId == R.id.m270mlrs) {
-                message = "Votre demande de m270mlrs a ete prise en compte";
-            } else {
-                message = "Message personnalisé par défaut";
+        Button button1 = findViewById(R.id.challenger2);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UkActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le premier bouton
+                // Ajoutez votre code ici
             }
+        });
 
-            // Ouvrir MainActivity2 en lui transmettant le message personnalisé
-            Intent intent = new Intent(this, MainActivity2.class);
-            intent.putExtra("message", message);
-            startActivity(intent);
-        }
+        Button button2 = findViewById(R.id.munitions);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UkActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le deuxième bouton
+                // Ajoutez votre code ici
+            }
+        });
+
+        Button button3 = findViewById(R.id.m270mlrs);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UkActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le troisième bouton
+                // Ajoutez votre code ici
+            }
+        });
+
+        Button button4 = findViewById(R.id.seaking);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UkActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le troisième bouton
+                // Ajoutez votre code ici
+            }
+        });
     }
-
-
-
-
-
+}

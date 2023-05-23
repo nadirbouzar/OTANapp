@@ -11,8 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OTANapp"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAULqQsZgMAAd0bOKYDszl5OIjdlDb8"/>
         <activity
-            android:name=".Page_Stock"
+            android:name=".MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -27,6 +30,77 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItalyActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Italy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllemagneActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Allemagne" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FranceActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Italy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UkActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Uk" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EuActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Eu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ValidationActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Validation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuantiteActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Quantite" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

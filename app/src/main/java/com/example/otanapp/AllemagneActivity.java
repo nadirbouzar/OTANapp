@@ -19,35 +19,48 @@ public class AllemagneActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.allemagne_activity);
-    }
-    public void openActivity2(View view) {
-        // Récupérer l'identifiant du bouton cliqué
-        int buttonId = view.getId();
+        Button button1 = findViewById(R.id.fennek);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AllemagneActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le premier bouton
+                // Ajoutez votre code ici
+            }
+        });
 
-        // Déterminer le message personnalisé en fonction du bouton cliqué
-        String message;
-        if (buttonId == R.id.fennek) {
-            Toast.makeText(AllemagneActivity.this, "Votre demande de fennek a ete prise en compte", Toast.LENGTH_SHORT).show();
+        Button button2 = findViewById(R.id.patriot);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AllemagneActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le deuxième bouton
+                // Ajoutez votre code ici
+            }
+        });
 
-        } else if (buttonId == R.id.patriot) {
-            Toast.makeText(AllemagneActivity.this, "Votre demande de patriot a ete prise en compte", Toast.LENGTH_SHORT).show();
+        Button button3 = findViewById(R.id.sidewinder);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AllemagneActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le troisième bouton
+                // Ajoutez votre code ici
+            }
+        });
 
-        }else if (buttonId == R.id.sidewinder) {
-            Toast.makeText(AllemagneActivity.this, "Votre demande de sidewinder a ete prise en compte", Toast.LENGTH_SHORT).show();
-        }else if (buttonId == R.id.marder) {
-            Toast.makeText(AllemagneActivity.this, "Votre demande de marder a ete prise en compte", Toast.LENGTH_SHORT).show();
-        } else {
-            message = "Message personnalisé par défaut";
-        }
-
-        // Ouvrir MainActivity2 en lui transmettant le message personnalisé
-
-        Intent intent = new Intent(AllemagneActivity.this, MainActivity2.class);
-        startActivity(intent);
+        Button button4 = findViewById(R.id.marder);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AllemagneActivity.this, QuantiteActivity.class);
+                startActivity(intent);
+                // Action pour le troisième bouton
+                // Ajoutez votre code ici
+            }
+        });
     }
 }
-
-
-
-
-

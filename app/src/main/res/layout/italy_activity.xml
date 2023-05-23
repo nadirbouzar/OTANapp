@@ -1,65 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ItalyActivity">
+
+<LinearLayout
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ItalyActivity">
-
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/titleTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
-        <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Stocks Italie"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:padding="8dp" />
+        android:layout_height="wrap_content"
+        android:text="Stocks Italie"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp" />
 
-        <ImageView
-            android:id="@+id/image1"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/mamba" />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/stinger"
+        android:layout_margin="16dp"/>
 
-        <Button
-            android:id="@+id/mamba"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="mamba" />
+    <Button
+        android:id="@+id/stinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stinger"
+        android:layout_margin="8dp"/>
 
-        <ImageView
-            android:id="@+id/image2"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/stinger" />
+    <EditText
+        android:id="@+id/stingerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantité:  1500"
+        android:layout_margin="8dp"/>
 
-        <Button
-            android:id="@+id/stinger"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="stinger" />
-        <ImageView
-            android:id="@+id/image3"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/berreta" />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mamba"
+        android:layout_margin="16dp"/>
 
-        <Button
-            android:id="@+id/berreta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="berreta" />
+    <Button
+        android:id="@+id/mamba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mamba"
+        android:layout_margin="8dp"/>
 
+    <EditText
+        android:id="@+id/mambaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantité:  1500"
+        android:layout_margin="8dp"/>
 
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/berreta"
+        android:layout_margin="16dp"/>
 
+    <Button
+        android:id="@+id/berreta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="berreta"
+        android:layout_margin="8dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/berretaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantité:  1500"
+        android:layout_margin="8dp"/>
+
+    <!-- Ajoutez les images, boutons et zones de texte supplémentaires ici -->
+
+</LinearLayout>
+</ScrollView>

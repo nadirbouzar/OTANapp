@@ -1,19 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".LitFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Lit"
-    android:textSize="60sp"
-    android:layout_centerInParent="true"
-    android:textColor="@color/blue"
-    />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stocks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="108dp"
+            android:layout_height="90dp"
+            android:src="@drawable/allemagne" />
+
+        <Button
+            android:id="@+id/allemagne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allemagne" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="110dp"
+            android:layout_height="53dp"
+            android:src="@drawable/etats_unis" />
+
+        <Button
+            android:id="@+id/etatsUnis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="États-Unis" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="123dp"
+            android:layout_height="63dp"
+            android:src="@drawable/france" />
+
+        <Button
+            android:id="@+id/france"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="France" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="112dp"
+            android:layout_height="69dp"
+            android:src="@drawable/royaume_unis" />
+
+        <Button
+            android:id="@+id/royaumeUnis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Royaume-Uni" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="119dp"
+            android:layout_height="73dp"
+            android:src="@drawable/italie" />
+
+        <Button
+            android:id="@+id/italie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Italie" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

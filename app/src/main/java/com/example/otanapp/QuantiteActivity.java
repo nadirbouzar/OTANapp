@@ -13,19 +13,17 @@ public class QuantiteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qualite);
-    }
 
 
-    public void openActivity2(View view) {
-        // Récupérer l'identifiant du bouton cliqué
-        int buttonId = view.getId();
 
-        // Déterminer le message personnalisé en fonction du bouton cliqué
-        String message;
-        if (buttonId == R.id.quantite) {
-            Intent intent = new Intent(QuantiteActivity.this, ValidationActivity.class);
-            startActivity(intent);
-
-        }
-    }
-}
+        Button button1 = findViewById(R.id.quantite);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(QuantiteActivity.this, ValidationActivity.class);
+                startActivity(intent);
+                // Action pour le premier bouton
+                // Ajoutez votre code ici
+            }
+        });
+    }}

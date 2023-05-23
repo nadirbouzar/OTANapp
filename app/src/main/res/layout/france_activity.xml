@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".FranceActivity">
+
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
@@ -26,50 +23,87 @@
             android:id="@+id/image1"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/canon" />
+            android:src="@drawable/canon"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/canon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Canon Ceasar" />
+            android:text="canon"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/canonText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
 
         <ImageView
             android:id="@+id/image2"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/tigre" />
+            android:src="@drawable/tigre"
+            android:layout_margin="16dp" />
 
         <Button
-            android:id="@+id/Tigre"
+            android:id="@+id/tigre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tigre" />
+            android:text="tigre"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/tigreText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
         <ImageView
             android:id="@+id/image3"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/amx10rc" />
+            android:src="@drawable/amx10rc"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/amx10rc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="amx10rc" />
+            android:text="amx10rc"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/amx10rcText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
         <ImageView
             android:id="@+id/image4"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:src="@drawable/milan" />
+            android:src="@drawable/milan"
+            android:layout_margin="16dp" />
 
         <Button
             android:id="@+id/milan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="milan" />
+            android:text="milan"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/milanText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Quantité:  1500"
+            android:layout_margin="16dp" />
+
+        <!-- Ajoutez les images, boutons et zones de texte supplémentaires ici -->
 
     </LinearLayout>
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
