@@ -12,7 +12,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
-        android:text="Quantité"
+        android:text="Quantité1"
         android:textColor="@color/white"
         android:textSize="25sp">
     </TextView>

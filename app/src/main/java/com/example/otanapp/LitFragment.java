@@ -17,6 +17,7 @@ public class LitFragment extends Fragment {
     private Button royaumeUnis;
     private Button france;
     private Button allemagne;
+    private Button berreta;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

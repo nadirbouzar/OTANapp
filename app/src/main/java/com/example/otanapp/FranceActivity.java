@@ -12,7 +12,7 @@ public class FranceActivity extends AppCompatActivity {
     private Button canon;
     private Button amx10rc;
     private Button Tigre;
-    private Button milan;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

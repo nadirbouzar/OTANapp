@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Application créée par Thinnujan Thirualagan, Nadir Bouzar et Djawad Ali.
+        android:text="1Application créée par Thinnujan Thirualagan, Nadir Bouzar et Djawad Ali.
          A la suite du conflit entre la russie et l'ukraine, nous nous sommes dit, pourquoi pas développer une application android qui permet aux membres de l’OTAN de faire dons d'une partie leurs stocks d’armes virtuellement ? "
         android:textColor="@color/white"
         android:textSize="25sp"

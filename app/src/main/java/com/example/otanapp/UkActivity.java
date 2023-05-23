@@ -12,7 +12,7 @@ public class UkActivity extends AppCompatActivity {
     private Button challenger2;
     private Button munitions;
     private Button m270mlrs;
-    private Button seaking;
+
 
 
     protected void onCreate(Bundle savedInstanceState) {

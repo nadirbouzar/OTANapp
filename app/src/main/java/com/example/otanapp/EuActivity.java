@@ -13,7 +13,7 @@ public class EuActivity extends AppCompatActivity {
     private Button f35;
     private Button himars;
     private Button stryker;
-    private Button predator;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

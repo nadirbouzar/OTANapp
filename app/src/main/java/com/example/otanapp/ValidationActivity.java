@@ -29,6 +29,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ValidationActivity  extends AppCompatActivity {
     private Button accueil;
     private Button revenir;
+    private Button revenir1;
 
 
     protected void onCreate(Bundle savedInstanceState) {

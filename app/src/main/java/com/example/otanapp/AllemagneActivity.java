@@ -13,7 +13,7 @@ public class AllemagneActivity extends AppCompatActivity {
     private Button fennek;
     private Button patriot;
     private Button sidewinder;
-    private Button marder;
+
 
 
     protected void onCreate(Bundle savedInstanceState) {

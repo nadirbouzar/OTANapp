@@ -11,6 +11,7 @@ public class ItalyActivity extends AppCompatActivity {
     private Button mamba;
     private Button stinger;
     private Button berreta;
+    private Button berreta1;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
